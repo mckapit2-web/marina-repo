@@ -6,7 +6,8 @@ install.packages(c(
   "janitor",
   "here",
   "scales",
-  "patchwork"
+  "patchwork",
+  "glmnet"
 ))
 
 IRkernel::installspec(user = FALSE)
