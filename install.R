@@ -10,4 +10,7 @@ install.packages(c(
   "glmnet"
 ))
 
+library(httr)
+library(stringr)
+
 IRkernel::installspec(user = FALSE)
